@@ -4,6 +4,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
+p{
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
 /* Containers */
 .container-fluid{
     padding: 3% 8%;
@@ -15,6 +19,16 @@ h1, h2, h3, h4, h5, h6 {
 
 #about .container-fluid{
     padding-top: 3%;
+}
+
+.about-image-wrapper{
+    padding: 0;
+    position: relative;
+}
+
+.about-image-container{
+    position: absolute;
+    bottom: 0;
 }
 /* Texts */
 .section-title{
@@ -63,8 +77,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .title p{
     color: #EAEAEA;
-    font-size: 1.25rem;
-    margin-bottom: 0;
 }
 .title h1{
     color: #08d9d6;
@@ -91,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about img{
-    width: 90%;
+    width: 100%;
 }
 
 span.typing, span.typed-cursor{
@@ -117,4 +129,13 @@ span.typing, span.typed-cursor{
     background-color: #FF2E63;
     border: #FF2E63;
     margin-top: 11%;
+}
+
+/* Projects */
+#projects{
+    background-color: #FF2E63;
+}
+
+#projects .section-title{
+    color: #EAEAEA;
 }
