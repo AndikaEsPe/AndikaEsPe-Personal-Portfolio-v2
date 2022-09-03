@@ -176,4 +176,27 @@ body {
 }
 
 /* Footer */
+#footer{
+  background-color: #252a34;
+  padding: 3%;
+}
 
+.footer-icons{
+  text-align: center;
+  margin-bottom: 1.5%;
+}
+
+#footer i{
+  padding: 0 1%;
+  color: #eaeaea
+}
+
+#footer i:hover{
+  transform: scale(1.5);
+  color: #08d9d6;
+}
+
+.copyright{
+  text-align: center;
+  color: #eaeaea;
+}
