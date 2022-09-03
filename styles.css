@@ -1,150 +1,179 @@
- /* Color Pallete:#08D9D6 #252A34 #FF2E63 #EAEAEA */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
+/* Color Pallete:#08D9D6 #252A34 #FF2E63 #EAEAEA */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
 }
 
-p{
-    font-size: 1.25rem;
-    margin-bottom: 0;
+p {
+  font-size: 1.25rem;
+  margin-bottom: 0;
 }
 /* Containers */
-.container-fluid{
-    padding: 3% 8%;
+.container-fluid {
+  padding: 3% 8%;
 }
 
-#home .container-fluid{
-    padding-bottom: 0;
+#home .container-fluid {
+  padding-bottom: 0;
 }
 
-#about .container-fluid{
-    padding-top: 3%;
+#about .container-fluid {
+  padding-top: 3%;
 }
 
-.about-image-wrapper{
-    padding: 0;
-    position: relative;
+.about-image-wrapper {
+  padding: 0;
+  position: relative;
 }
 
-.about-image-container{
-    position: absolute;
-    bottom: 0;
+.about-image-container {
+  position: absolute;
+  bottom: 0;
 }
 /* Texts */
-.section-title{
-    text-align: center;
-    font-weight: 900;
-    font-size: 2.25rem;
+.section-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2.25rem;
+  margin-bottom: 8%;
 }
 
 /* Home */
-#home{
-    background-color: #252A34;
+#home {
+  background-color: #252a34;
 }
 
- /* Navbar */
-.navbar{
-    padding: 0 0 3.5rem;
+/* Navbar */
+.navbar {
+  padding: 0 0 3.5rem;
 }
 
 .navbar-brand {
-    font-family: 'Cabin', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 900;
+  font-family: "Cabin", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
 }
 
-.brand-container span{
-    color: #08d9d6;
+.brand-container span {
+  color: #08d9d6;
 }
 
-.nav-item{
-    padding: 0 18px;
+.nav-item {
+  padding: 0 18px;
 }
 
-.nav-link{
-    font-size: 1.25rem;
+.nav-link {
+  font-size: 1.25rem;
 }
 
-.nav-link:hover{
-    color: #08d9d6 !important;
-    text-shadow:0px 0px 10px #08d9d6;
+.nav-link:hover {
+  color: #08d9d6 !important;
+  text-shadow: 0px 0px 10px #08d9d6;
 }
 
 /* Title */
-.title-text{
-    padding-top: 15%;
+.title-text {
+  padding-top: 15%;
 }
 
-.title p{
-    color: #EAEAEA;
+.title p {
+  color: #eaeaea;
 }
-.title h1{
-    color: #08d9d6;
-    font-weight: 900;
-    font-size: 4rem;
+.title h1 {
+  color: #08d9d6;
+  font-weight: 900;
+  font-size: 4rem;
 }
 
-.title img{
-    width: 75%;
-    padding-left: 2rem;
+.title img {
+  width: 75%;
+  padding-left: 2rem;
 }
 
 /* About */
-#about{
-    background-color: #EAEAEA;
+#about {
+  background-color: #eaeaea;
 }
 
-#about .section-title{
-    color: #252A34;
+#about .section-title {
+  color: #252a34;
 }
 
-.about-content{
-    margin-top: 10%;
+.about-content {
+  margin-top: 10%;
 }
 
-#about img{
-    width: 100%;
+#about img {
+  width: 100%;
 }
 
-span.typing, span.typed-cursor{
-    color: #FF2E63;
-    font-size: 2.25rem;
+span.typing,
+span.typed-cursor {
+  color: #ff2e63;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
-#about img{
-    border: #252A34 5px solid;
+#about img {
+  border: #252a34 5px solid;
 }
 
-.typing-container{
-    margin-bottom: 2%;
+.typing-container {
+  margin-bottom: 2%;
 }
 
-.about-text{
-    margin-top: 12%;
-    margin-left: 7%;
-    text-align: justify;
+.about-text {
+  margin-top: 12%;
+  margin-left: 7%;
+  text-align: justify;
 }
 
-.about-text .btn{
-    background-color: #FF2E63;
-    border: #FF2E63;
-    margin-top: 11%;
+.about-text .btn {
+  background-color: #ff2e63;
+  border: #ff2e63;
+  margin-top: 11%;
 }
 
 /* Projects */
-#projects{
-    background-color: #FF2E63;
+#projects {
+  background-color: #252a34;
 }
 
-#projects .section-title{
-    color: #EAEAEA;
-    margin-bottom: 10%;
+#projects .section-title {
+  color: #eaeaea;
 }
 
-.projects-content{
-    margin: 8% 0 10%;
+.projects-content {
+  margin: 8% 0 10%;
 }
 
-.card{
-    margin-top: 7%;
+.card {
+  margin-top: 7%;
 }
+
+/* Skills */
+.content {
+  color: #ff2e63;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+.tagcloud {
+  font-size: 1.5rem;
+  margin: auto;
+  width: 50%;
+}
+
+.tagcloud--item:hover {
+  color: #36454f;
+}
+
+/* Footer */
+
