@@ -150,13 +150,37 @@ span.typed-cursor {
 }
 
 .projects-content {
-  margin: 8% 0 10%;
+  margin: 8% 0 9%;
 }
 
 .card {
   margin-top: 7%;
+  border-color: black;
 }
 
+.card-body h3{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card-body p{
+  text-align: justify;
+}
+
+.card-footer{
+  background-color: #252a34;
+}
+
+.card-footer i{
+  color: #eaeaea;
+  transform: scale(1.25);
+  padding-right: 0.75rem;
+  padding-left: 2%;
+}
+
+.card-footer i:hover{
+  color: #08d9d6;
+}
 /* Skills */
 #skills .section-title{
   color: #ff2e63;
